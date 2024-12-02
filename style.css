@@ -71,3 +71,28 @@
 .item.active .title{
     animation: toActive 0.5s ease-in-out 1;
 }
+ @media (max-width: 785px){
+    .item{
+        padding: 100px 2%;
+        flex-direction: column;
+        text-align: center;
+        overflow: hidden;
+        gap: 5rem;
+    }
+    .item .title{
+        padding: 100px 2%;
+        margin-top: 40px;
+        font-size: 4rem;
+        flex-direction: column;
+        text-align: center;
+        overflow: hidden;
+        gap: 5rem;
+    }
+    .item .refri{
+        width: 125%;
+    }
+    .item .fruit{
+        width: 100%;
+    }
+    
+ }
